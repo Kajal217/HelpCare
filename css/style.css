@@ -1,4 +1,41 @@
-/* Demo 3 */
+
+.search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 85px;
+    height: 85px;
+    box-shadow: 5px 10px #888888;
+    border-radius: 5px;
+    transition: width 0.5%;
+
+
+}
+
+.icon{
+    position: absolute;
+    top:10px;
+    right:10px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    transition: 0.5%;
+    border-radius: 5px;
+}
+
+.icon:before{
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #262626;
+    border-radius: 50%;
+
+
+}
 
 .form-3 {
     font-family: 'Ubuntu', 'Lato', sans-serif;

@@ -65,15 +65,12 @@
                  ?>
 
 
-                
-            <li class= "nav-item">
-              <a class= "nav-link" href= "search.php">Search</a>
-                </li>
+              
               <li class="nav-item"> 
               <a class="nav-link" href="http://localhost:4200">Contact</a>
             </li>
             <li class = 'nav-item'>
-                <a class = 'nav-link' href ='login.html'>Log In</a>
+                <a class = 'nav-link' href ='login.php'>Log In</a>
               </li>
                                        
         <?php
@@ -99,15 +96,15 @@
           
          
 
-        <div class= "col-md-4", style= "float:left">   <!-- looks better when floating to the left in terms of spacing --> 
-          <h3> Add A Professor </h3>
-          <p> Don't see one of your professors? Add them to a specific university.</p>
-          <a class= "btn btn-primary btn-lg" href= "ratings.html" role= "button"> Add a Professor </a>
+        <div class= "col-md-4", style= "float:center">   
+          <h3> Enroll in a Plan </h3>
+          <p> Already know who you want? Enroll today! </p>
+          <a class= "btn btn-primary btn-lg" href= "" role= "button"> Enroll </a>
           
           <style>
             
               .button { 
-                /* button has its own borders and background color. it is centerd in terms of the div*/
+
                 background-color: #0000FF; 
                 border: none;
                 color: white;
@@ -125,10 +122,10 @@
 
         </div>
 
-        <div class= "col-md-4", style="position:absolute; left:800px; top:375px;">
-          <h3> Add a University</h3>
-          <p> Is your university not registered? Not a problem, register them today! </p>
-          <a class= "btn btn-primary btn-lg" href= "university.html" role= "button"> Add a University </a>
+                <div class= "col-md-4", style="position:absolute; left:800px; top:375px;">
+          <h3> Find Benefits</h3>
+          <p> Not sure what you're looking for? See what companies have to offer! </p>
+          <a class= "btn btn-primary btn-lg" href= "university.html" role= "button"> Find </a>
           <style>
           .div{
             float: right;
@@ -147,6 +144,16 @@
                 font-size: 16px;
     }
    </style>
+        </div>
+
+
+
+        <div class = "search">
+          <div class = 'icon'>
+
+
+
+          </div>
         </div>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
